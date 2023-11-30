@@ -1,0 +1,34 @@
+[
+    {
+        "id": 4,
+        "username": "20-13148",
+        "password": "asd",
+        "followers": [],
+        "following": [],
+        "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=20-13148"
+    },
+    {
+        "id": 3,
+        "username": "asd",
+        "password": "asd",
+        "followers": [],
+        "following": [],
+        "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+    },
+    {
+        "id": 2,
+        "username": "dsa",
+        "password": "asd",
+        "followers": [],
+        "following": [],
+        "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=dsa"
+    },
+    {
+        "id": 1,
+        "username": "simonescano",
+        "password": "dasdsa",
+        "followers": [],
+        "following": [],
+        "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=simonescano"
+    }
+]

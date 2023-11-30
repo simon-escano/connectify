@@ -1,0 +1,13 @@
+:root {
+    --primary: white;
+    --primary-opp: black;
+    --neutral-light: #eee;
+    --neutral: #ddd;
+    --neutral-dark: #777;
+    --error: #ff004c;
+    --error-transparent: #ff004c50;
+    --success: #00b45a;
+    --success-transparent: #00b45a50;
+    --shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+    --shadow-big: 8px 8px 24px rgba(0, 0, 0, 0.10);
+}

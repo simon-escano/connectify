@@ -1,0 +1,201 @@
+main {
+	> #posts {
+		display: flex;
+		flex-direction: column;
+		max-width: 650px;
+		width: 100%;
+		gap: 20px;
+	}
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	width: 100%;
+	background-color: var(--primary);
+	border-radius: 18px;
+	box-shadow: var(--shadow);
+	> .post-info {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 16px 20px;
+		gap: 16px;
+		> div {
+			display: flex;
+			gap: 14px;
+			> img {
+				aspect-ratio: 1;
+				width: 50px;
+			}
+			> div {
+				display: flex;
+				flex-direction: column;
+				> .post-user {
+					font-size: 20px;
+					font-weight: 700;
+					color: var(--primary-opp);
+				}
+				> .post-date {
+					color: var(--neutral-dark);
+				}
+			}
+		}
+		> form {
+			> input[type="submit"] {
+				padding: 10px 16px;
+				color: var(--primary);
+				background-color: var(--error-transparent);
+			}
+		}
+	}
+	> .post-txt {
+		padding: 0px 32px;
+		padding-bottom: 16px;
+		> .post-title {
+			font-size: 32px;
+			font-weight: 600;
+			color: var(--primary-opp);
+		}
+		> .post-body {
+			font-size: 22px;
+			font-weight: 500;
+			color: var(--neutral-dark);
+		}
+	}
+	> .comments-box {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-height: 250px;
+		overflow: scroll;
+		overflow-x: hidden;
+		box-shadow: inset var(--shadow-big);
+		gap: 20px;
+		width: 100%;
+		padding: 24px;
+		background-color: var(--neutral-light);
+	}
+	> .comment-box {
+		display: flex;
+		width: 100%;
+		padding: 16px;
+		> form {
+			display: flex;
+			width: 100%;
+			> input[type="text"] {
+				width: 100%;
+				background-color: var(--neutral-light);
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			> input[type="submit"] {
+				padding: 0px 16px;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}
+
+.comment {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	background-color: var(--primary);
+	box-shadow: var(--shadow);
+	padding: 14px 16px;
+	border-radius: 14px;
+	border-top-left-radius: 6px;
+	> img {
+		aspect-ratio: 1;
+		width: 36px;
+	}
+	> section {
+		display: flex;
+		flex-direction: column;
+		> div {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			> .comment-user {
+				font-weight: 700;
+			}
+			> .comment-date {
+				font-size: 14px;
+				color: var(--neutral-dark);
+			}
+		}
+		> p {
+			font-size: 20px;
+		}
+	}
+	> form {
+		margin-left: 20px;
+		> input {
+			background-color: var(--error-transparent);
+			color: var(--primary);
+			padding: 8px 12px;
+			font-size: 12px;
+		}
+	}
+}
+
+#createpost-box {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--primary);
+	box-shadow: var(--shadow);
+	border-radius: 18px;
+	width: 100%;
+	max-width: 650px;
+	height: 100%;
+	max-height: 400px;
+	overflow: hidden;
+	> p {
+		background-color: var(--primary-opp);
+		color: var(--primary);
+		padding: 16px;
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+	}
+	> form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 100%;
+		height: 100%;
+		padding: 40px;
+		> input[type="text"], textarea {
+			border: 1px solid var(--neutral-dark);
+			font-size: 18px;
+			padding: 16px 24px;
+			width: 100%;
+		}
+		> #createpost-title {
+			font-weight: 800;
+			font-size: 24px;
+		}
+		> #createpost-body {
+			resize: none;
+			height: 100%;
+			max-height: 400px;
+		}
+		> input[type="submit"] {
+			padding: 16px 24px;
+			font-size: 24px;
+			background-color: var(--primary-opp);
+			color: var(--primary);
+			width: 100%;
+		}
+	}
+}

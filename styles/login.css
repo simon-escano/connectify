@@ -1,0 +1,52 @@
+main {
+    align-items: baseline;
+    > #login-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--shadow);
+        width: 100%;
+        max-width: 650px;
+        border-radius: 40px;
+        padding: 75px;
+        gap: 20px;
+        > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        > form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 400px;
+            gap: 10px;
+            > input[type="text"], > input[type="password"] {
+                border: 1px solid var(--neutral-dark);
+                font-size: 16px;
+                padding: 16px 24px;
+                width: 100%;
+            }
+            > input[type="submit"] {
+                padding: 16px 24px;
+                font-size: 24px;
+                font-weight: 700;
+                background-color: var(--primary-opp);   
+                color: var(--primary);
+                width: 100%;
+            }
+        }
+        > #redirect-account {
+            color: var(--neutral-dark);
+            > a {
+                font-weight: 700;
+                color: var(--primary-opp)
+            }
+        }
+    }
+}

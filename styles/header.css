@@ -1,0 +1,77 @@
+header {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	height: 65px;
+	padding: 16px 20px;
+	gap: 20px;
+	> section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		gap: 10px;
+		> p {
+			color: var(--primary);
+		}
+	}
+	#middle {
+		width: 100%;
+		> form {
+			display: flex;
+			height: 100%;
+			max-width: 650px;
+			width: 100%;
+			> input {
+				height: 100%;
+				padding: 0 16px;
+			}
+			> input[type="text"] {
+				flex: 1;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			> input[type="submit"] {
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+	> #right {
+		> #createpost-btn {
+			aspect-ratio: 1;
+			height: 100%;
+		}
+		> #createpost-form {
+			height: 100%;
+			> input[type="submit"] {
+				aspect-ratio: 1;
+				height: 100%;
+			}
+		}
+		> #logout-form {
+			display: flex;
+			align-items: center;
+			height: 100%;
+			overflow: hidden;
+			> #username {
+				display: flex;
+				background-color: var(--primary);
+				height: 100%;
+				align-items: center;
+				border-top-left-radius: 12px;
+				border-bottom-left-radius: 12px;
+				padding: 0 16px;
+			}
+			> input[type="submit"] {
+				padding: 0 16px;
+				height: 100%;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}

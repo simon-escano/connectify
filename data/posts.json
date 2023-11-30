@@ -1,0 +1,62 @@
+[
+    {
+        "id": 4,
+        "user": {
+            "id": 3,
+            "username": "asd",
+            "password": "asd",
+            "followers": [],
+            "following": [],
+            "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+        },
+        "title": "Bro",
+        "body": "hello",
+        "date": "2023-11-30 04:46:35",
+        "likes": []
+    },
+    {
+        "id": 3,
+        "user": {
+            "id": 3,
+            "username": "asd",
+            "password": "asd",
+            "followers": [],
+            "following": [],
+            "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+        },
+        "title": "Bro",
+        "body": "hello",
+        "date": "2023-11-30 04:46:26",
+        "likes": []
+    },
+    {
+        "id": 2,
+        "user": {
+            "id": 3,
+            "username": "asd",
+            "password": "asd",
+            "followers": [],
+            "following": [],
+            "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+        },
+        "title": "Bro",
+        "body": "hello",
+        "date": "2023-11-30 04:46:24",
+        "likes": []
+    },
+    {
+        "id": 1,
+        "user": {
+            "id": 3,
+            "username": "asd",
+            "password": "asd",
+            "followers": [],
+            "following": [],
+            "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+        },
+        "title": "Hello",
+        "body": "Worldie",
+        "date": "2023-11-30 04:43:55",
+        "likes": []
+    }
+]

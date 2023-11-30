@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "post_id": "1",
+        "user": {
+            "id": 3,
+            "username": "asd",
+            "password": "asd",
+            "followers": [],
+            "following": [],
+            "avatar": "https:\/\/ui-avatars.com\/api\/?rounded=true&name=asd"
+        },
+        "body": "asd",
+        "date": "2023-11-30 04:45:39",
+        "likes": []
+    }
+]
